@@ -1,0 +1,19 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "A vibrant collection of 10 React.js projects to learn, showcase, and have fun!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}
