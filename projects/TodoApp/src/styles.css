@@ -1,0 +1,170 @@
+/* Global Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #e8f5f5, #d8eefe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  overflow: hidden;
+}
+
+/* Main Container */
+.container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 420px;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Input and Button Styles */
+input {
+  padding: 15px;
+  border: 2px solid #e4f0f6;
+  outline: none;
+  border-radius: 12px;
+  background: #f9fbfc;
+  width: 70%;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #93c9f2;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(147, 201, 242, 0.2);
+}
+
+button {
+  background: linear-gradient(135deg, #007bff, #00d4ff);
+  padding: 12px 25px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* To-Do List */
+.todos-list {
+  margin-top: 2rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.todo {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7f9, #eef3f6);
+  padding: 15px 20px;
+  margin: 10px 0;
+  border-radius: 12px;
+  font-size: 16px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.todo:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.todo span {
+  flex-grow: 1;
+  text-align: left;
+  font-size: 15px;
+  color: #555;
+}
+
+.close {
+  background: #ff4d4f;
+  border: none;
+  color: white;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.close:hover {
+  background: #ff1a1c;
+  transform: scale(1.1);
+}
+
+/* Scrollbar Styling */
+.todos-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.todos-list::-webkit-scrollbar-thumb {
+  background: #93c9f2;
+  border-radius: 4px;
+}
+
+.todos-list::-webkit-scrollbar-track {
+  background: #f1f3f5;
+}
+
+
+/* Catchy Heading */
+.heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #454545;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Catchy Heading */
+.heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #454545;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Input and Button Spacing */
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adds space between input and button */
+  margin-bottom: 20px;
+}
+
