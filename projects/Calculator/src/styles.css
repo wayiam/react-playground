@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #ffffff;
+}
+
+
+form {
+    background-color: #2d2f33;
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.8);
+    width: 380px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.display {
+    background-color: #3a3d42;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: right;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: inset 0px -3px 5px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+table {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+/* Buttons */
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b4e57;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 12px;
+    cursor: pointer;
+    height: 75px;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+span:hover {
+    background-color: #5d616a;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+span:active {
+    background-color: #3d4048;
+    transform: scale(0.98);
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Special Buttons */
+span.special {
+    background-color: #f76c6c;
+    color: white;
+}
+
+span.special:hover {
+    background-color: #f88989;
+}
+
+span.special:active {
+    background-color: #d55555;
+}
+
+/* Equal Button */
+span.special:last-of-type {
+    background-color: #6c7df7;
+}
+
+span.special:last-of-type:hover {
+    background-color: #8897f8;
+}
+
+span.special:last-of-type:active {
+    background-color: #5561d5;
+}
+
+span.wide {
+    grid-column: span 2;
+}
+
+@media (max-width: 400px) {
+    form {
+        width: 90%;
+    }
+
+    span {
+        font-size: 20px;
+        height: 65px;
+    }
+}
