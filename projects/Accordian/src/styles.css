@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(36, 36, 36);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.accordion-card {
+  background: rgb(73, 73, 73);
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.accordion-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header div {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.icon.rotate {
+  transform: rotate(180deg);
+}
+
+.content {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 0;
+}
+
+.content.show {
+  max-height: 200px; /* Adjust this value based on your content */
+}
+
+.card-info {
+  padding: 20px 0;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .accordion-card {
+    padding: 15px;
+  }
+
+  .header div {
+    font-size: 1rem;
+  }
+
+  .card-info {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .accordion-card {
+    padding: 10px;
+  }
+
+  .header div {
+    font-size: 0.9rem;
+  }
+
+  .card-info {
+    font-size: 0.8rem;
+  }
+}
