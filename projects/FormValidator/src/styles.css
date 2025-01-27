@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #fff7c8 0%, #fa709a 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card {
+    background: #f3fffe;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .card-image {
+    height: 150px;
+    background: url("https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+  
+  input {
+    padding: 12px 15px;
+    margin: 5px 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #fa709a;
+  }
+  
+  .error {
+    font-size: 12px;
+    color: red;
+    margin-top: -10px;
+  }
+  
+  .submit-btn {
+    padding: 12px;
+    background: #fa709a;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background: #ff416c;
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      grid-template-columns: 1fr 1fr;
+    }
+    .card-image {
+      height: auto;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
