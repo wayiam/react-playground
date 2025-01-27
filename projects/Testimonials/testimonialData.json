@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Albert Einstein",
+      "designation": "Theoretical Physicist",
+      "testimonial": "Strive not to be a success, but rather to be of value.",
+      "image": "https://globalgovernanceforum.org/wp-content/uploads/2020/10/Albert-Einstein.jpg"
+    },
+    {
+      "name": "Oprah Winfrey",
+      "designation": "Talk Show Host & Philanthropist",
+      "testimonial": "The biggest adventure you can take is to live the life of your dreams.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1kucR0SH7KU02HNTwIYOhrdx4Q36JfnqJ2g&s"
+    },
+    {
+      "name": "Steve Jobs",
+      "designation": "Co-founder, Apple Inc.",
+      "testimonial": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4V_IqG1fMlH-ZI8tKHuy4tZu8kd14UWUrA&s"
+    },
+    {
+      "name": "Maya Angelou",
+      "designation": "Poet & Civil Rights Activist",
+      "testimonial": "People will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+      "image": "https://www.essence.com/wp-content/uploads/2014/01/images/2014/01/23/maya-angelou-circa-1970.jpg?width=800"
+    },
+    {
+      "name": "Nelson Mandela",
+      "designation": "Former President of South Africa",
+      "testimonial": "It always seems impossible until it’s done.",
+      "image": "https://karsh.org/wp-content/uploads/2017/06/Yousuf-Karsh-Nelson-Mandela-1990-1523x1960.jpg"
+    },
+    {
+      "name": "Elon Musk",
+      "designation": "CEO, Tesla & SpaceX",
+      "testimonial": "When something is important enough, you do it even if the odds are not in your favor.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Elon_Musk_Royal_Society_crop.jpg"
+    },
+    {
+      "name": "Marie Curie",
+      "designation": "Physicist & Chemist",
+      "testimonial": "Be less curious about people and more curious about ideas.",
+      "image": "https://cdn.britannica.com/10/74610-050-19CB330C/Marie-Curie-Paris-laboratory.jpg"
+    },
+    {
+      "name": "Serena Williams",
+      "designation": "Professional Tennis Player",
+      "testimonial": "I’ve grown most not from victories, but setbacks. If winning is God’s reward, then losing is how he teaches us.",
+      "image": "https://ca-times.brightspotcdn.com/dims4/default/f27c17a/2147483647/strip/true/crop/1728x1152+160+0/resize/2000x1333!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F43%2F98%2Fd1cf186ffdf2fe215346bba89750%2Fla-1467409250-snap-photo"
+    }
+  ]
+  
